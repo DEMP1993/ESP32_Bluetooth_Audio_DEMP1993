@@ -12,7 +12,9 @@ Features:
 -Burr-Brown DAC Chip  
 -Sampling frequency up to 384kHz  
 -Resolution up to 32 Bit  
--Low noise Power Supply with low ESR Capacitors  
+-Low noise Power Supply with low ESR Capacitors
+-Two tactile switches
+-6 pin header with GPIOs and ground
 
 How it works:  
 -Download this project and add it to the ESP IDF  
