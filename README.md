@@ -1,4 +1,4 @@
-# **ESP32 Car Audio Connector**
+# **ESP32 Audio Connector**
 This project connects your Bluetooth Audio Source to your Speaker  
 
 You need:  
