@@ -30,3 +30,4 @@ Planned features:
 -AVRCP Comands (Play/Pause/Volume...)  
 -Buttons with AVRCP functions  
 -extended 6 Pin Header with AVRCP functions  
+-3D printed case for ESP32 Audio Devolopment Board and NODE MCU
