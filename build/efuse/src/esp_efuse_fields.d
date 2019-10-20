@@ -1,129 +1,54 @@
 src/esp_efuse_fields.o: \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/efuse/src/esp_efuse_fields.c \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/efuse/include/esp_efuse.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/stdint.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/machine/_default_types.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/features.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/_intsup.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/esp32/include/esp_err.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/stdio.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/_ansi.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/newlib.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/config.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/cdefs.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/reent.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/_ansi.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/_types.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/machine/_types.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/lock.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/types.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/machine/types.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/sched.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/stdio.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/platform_include/assert.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/a2dp_sink/build/include/sdkconfig.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/stdlib.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/machine/stdlib.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/alloca.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/assert.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/log/include/esp_log.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/esp32/include/esp_assert.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/log/include/esp_log_internal.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/efuse/src/esp_efuse_utility.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/string.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/string.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/esp32/include/esp_types.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/efuse/esp32/include/esp_efuse_table.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/esp32/include/rom/efuse.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/soc/esp32/include/soc/efuse_reg.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/bootloader_support/include/bootloader_random.h
+ C:/msys32/home/User/esp/esp-idf/components/efuse/src/esp_efuse_fields.c \
+ C:/msys32/home/User/esp/esp-idf/components/efuse/include/esp_efuse.h \
+ C:/msys32/home/User/esp/esp-idf/components/esp_common/include/esp_err.h \
+ C:/msys32/home/User/esp/esp-idf/components/newlib/platform_include/assert.h \
+ C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/include/sdkconfig.h \
+ C:/msys32/home/User/esp/esp-idf/components/log/include/esp_log.h \
+ C:/msys32/home/User/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
+ C:/msys32/home/User/esp/esp-idf/components/log/include/esp_log_internal.h \
+ C:/msys32/home/User/esp/esp-idf/components/efuse/src/esp_efuse_utility.h \
+ C:/msys32/home/User/esp/esp-idf/components/esp_common/include/esp_types.h \
+ C:/msys32/home/User/esp/esp-idf/components/efuse/esp32/include/esp_efuse_table.h \
+ C:/msys32/home/User/esp/esp-idf/components/esp_rom/include/esp32/rom/efuse.h \
+ C:/msys32/home/User/esp/esp-idf/components/soc/include/soc/efuse_periph.h \
+ C:/msys32/home/User/esp/esp-idf/components/soc/esp32/include/soc/efuse_reg.h \
+ C:/msys32/home/User/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
+ C:/msys32/home/User/esp/esp-idf/components/esp_common/include/esp_assert.h \
+ C:/msys32/home/User/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
+ C:/msys32/home/User/esp/esp-idf/components/bootloader_support/include/bootloader_random.h
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/efuse/include/esp_efuse.h:
+C:/msys32/home/User/esp/esp-idf/components/efuse/include/esp_efuse.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/stdint.h:
+C:/msys32/home/User/esp/esp-idf/components/esp_common/include/esp_err.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/machine/_default_types.h:
+C:/msys32/home/User/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/features.h:
+C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/include/sdkconfig.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/_intsup.h:
+C:/msys32/home/User/esp/esp-idf/components/log/include/esp_log.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/esp32/include/esp_err.h:
+C:/msys32/home/User/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/stdio.h:
+C:/msys32/home/User/esp/esp-idf/components/log/include/esp_log_internal.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/_ansi.h:
+C:/msys32/home/User/esp/esp-idf/components/efuse/src/esp_efuse_utility.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/newlib.h:
+C:/msys32/home/User/esp/esp-idf/components/esp_common/include/esp_types.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/config.h:
+C:/msys32/home/User/esp/esp-idf/components/efuse/esp32/include/esp_efuse_table.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/machine/ieeefp.h:
+C:/msys32/home/User/esp/esp-idf/components/esp_rom/include/esp32/rom/efuse.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h:
+C:/msys32/home/User/esp/esp-idf/components/soc/include/soc/efuse_periph.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/cdefs.h:
+C:/msys32/home/User/esp/esp-idf/components/soc/esp32/include/soc/efuse_reg.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/reent.h:
+C:/msys32/home/User/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/_ansi.h:
+C:/msys32/home/User/esp/esp-idf/components/esp_common/include/esp_assert.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/_types.h:
+C:/msys32/home/User/esp/esp-idf/components/esp_common/include/esp_bit_defs.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/machine/_types.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/lock.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/types.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/machine/types.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/sched.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/stdio.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/platform_include/assert.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/a2dp_sink/build/include/sdkconfig.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/stdlib.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/machine/stdlib.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/alloca.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/assert.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/log/include/esp_log.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/esp32/include/esp_assert.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/log/include/esp_log_internal.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/efuse/src/esp_efuse_utility.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/string.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/string.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/esp32/include/esp_types.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/efuse/esp32/include/esp_efuse_table.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/esp32/include/rom/efuse.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/soc/esp32/include/soc/efuse_reg.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/bootloader_support/include/bootloader_random.h:
-/home/MP1993/esp/esp-idf/components/efuse/src/esp_efuse_fields.c:
+C:/msys32/home/User/esp/esp-idf/components/bootloader_support/include/bootloader_random.h:
+/home/User/esp/esp-idf/components/efuse/src/esp_efuse_fields.c:

@@ -1,96 +1,51 @@
 spi_flash_rom_patch.o: \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/spi_flash/spi_flash_rom_patch.c \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/stdint.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/machine/_default_types.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/features.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/_intsup.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/esp32/include/esp_assert.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/platform_include/assert.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/a2dp_sink/build/include/sdkconfig.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/stdlib.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/_ansi.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/newlib.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/config.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/reent.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/_ansi.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/_types.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/machine/_types.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/lock.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/cdefs.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/machine/stdlib.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/alloca.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/assert.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/esp32/include/rom/gpio.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/esp32/include/esp_attr.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/soc/esp32/include/soc/gpio_reg.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/esp32/include/rom/spi_flash.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/soc/esp32/include/soc/spi_reg.h
+ C:/msys32/home/User/esp/esp-idf/components/spi_flash/spi_flash_rom_patch.c \
+ C:/msys32/home/User/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h \
+ C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/include/sdkconfig.h \
+ C:/msys32/home/User/esp/esp-idf/components/esp_rom/include/esp32/rom/gpio.h \
+ C:/msys32/home/User/esp/esp-idf/components/esp32/include/esp_attr.h \
+ C:/msys32/home/User/esp/esp-idf/components/esp_rom/include/esp32/rom/spi_flash.h \
+ C:/msys32/home/User/esp/esp-idf/components/soc/include/soc/spi_periph.h \
+ C:/msys32/home/User/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
+ C:/msys32/home/User/esp/esp-idf/components/esp_common/include/esp_assert.h \
+ C:/msys32/home/User/esp/esp-idf/components/newlib/platform_include/assert.h \
+ C:/msys32/home/User/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
+ C:/msys32/home/User/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
+ C:/msys32/home/User/esp/esp-idf/components/soc/esp32/include/soc/spi_caps.h \
+ C:/msys32/home/User/esp/esp-idf/components/soc/esp32/include/soc/spi_reg.h \
+ C:/msys32/home/User/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
+ C:/msys32/home/User/esp/esp-idf/components/soc/esp32/include/soc/spi_struct.h \
+ C:/msys32/home/User/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
+C:/msys32/home/User/esp/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/stdint.h:
+C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/include/sdkconfig.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/machine/_default_types.h:
+C:/msys32/home/User/esp/esp-idf/components/esp_rom/include/esp32/rom/gpio.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/features.h:
+C:/msys32/home/User/esp/esp-idf/components/esp32/include/esp_attr.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/_intsup.h:
+C:/msys32/home/User/esp/esp-idf/components/esp_rom/include/esp32/rom/spi_flash.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
+C:/msys32/home/User/esp/esp-idf/components/soc/include/soc/spi_periph.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/esp32/include/esp_assert.h:
+C:/msys32/home/User/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/platform_include/assert.h:
+C:/msys32/home/User/esp/esp-idf/components/esp_common/include/esp_assert.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/a2dp_sink/build/include/sdkconfig.h:
+C:/msys32/home/User/esp/esp-idf/components/newlib/platform_include/assert.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/stdlib.h:
+C:/msys32/home/User/esp/esp-idf/components/esp_common/include/esp_bit_defs.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/machine/ieeefp.h:
+C:/msys32/home/User/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/_ansi.h:
+C:/msys32/home/User/esp/esp-idf/components/soc/esp32/include/soc/spi_caps.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/newlib.h:
+C:/msys32/home/User/esp/esp-idf/components/soc/esp32/include/soc/spi_reg.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/config.h:
+C:/msys32/home/User/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h:
+C:/msys32/home/User/esp/esp-idf/components/soc/esp32/include/soc/spi_struct.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/reent.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/_ansi.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/_types.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/machine/_types.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/lock.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/cdefs.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/machine/stdlib.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/alloca.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/assert.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/esp32/include/rom/gpio.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/esp32/include/esp_attr.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/soc/esp32/include/soc/gpio_reg.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/soc/esp32/include/soc/gpio_pins.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/esp32/include/rom/spi_flash.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/soc/esp32/include/soc/spi_reg.h:
-/home/MP1993/esp/esp-idf/components/spi_flash/./spi_flash_rom_patch.c:
+C:/msys32/home/User/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h:
+/home/User/esp/esp-idf/components/spi_flash/./spi_flash_rom_patch.c:

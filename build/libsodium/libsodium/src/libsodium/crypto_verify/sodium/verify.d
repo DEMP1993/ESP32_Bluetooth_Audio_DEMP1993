@@ -1,27 +1,15 @@
 libsodium/src/libsodium/crypto_verify/sodium/verify.o: \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_verify/sodium/verify.c \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/stdint.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/machine/_default_types.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/features.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/_intsup.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/crypto_verify_16.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/export.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/crypto_verify_32.h \
- C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/crypto_verify_64.h
+ C:/msys32/home/User/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_verify/sodium/verify.c \
+ C:/msys32/home/User/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/crypto_verify_16.h \
+ C:/msys32/home/User/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/export.h \
+ C:/msys32/home/User/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/crypto_verify_32.h \
+ C:/msys32/home/User/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/crypto_verify_64.h
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/stdint.h:
+C:/msys32/home/User/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/crypto_verify_16.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/machine/_default_types.h:
+C:/msys32/home/User/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/export.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/features.h:
+C:/msys32/home/User/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/crypto_verify_32.h:
 
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/newlib/include/sys/_intsup.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/crypto_verify_16.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/export.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/crypto_verify_32.h:
-
-C:/Users/forst/Desktop/esp32/home/MP1993/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/crypto_verify_64.h:
-/home/MP1993/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_verify/sodium/verify.c:
+C:/msys32/home/User/esp/esp-idf/components/libsodium/libsodium/src/libsodium/include/sodium/crypto_verify_64.h:
+/home/User/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_verify/sodium/verify.c:

@@ -1,5 +1,10 @@
+/*
+ * avrcp_control.h
+ *
+ *  Created on: 14.03.2019
+ *      Author: MP1993
+ */
 #include <stdio.h>
-//Pfad der Bibliothek muss im Projekt eingebunden werden (C/C++General/Path)
 #include <esp_avrc_api.h>
 #include <esp_timer.h>
 

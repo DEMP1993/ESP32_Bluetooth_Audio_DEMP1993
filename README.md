@@ -1,1 +1,2 @@
-# ESP32_Bluetooth_Audio_DEMP1993
+# **ESP32 Car Audio Connector**
+This project connects your handy with your car.

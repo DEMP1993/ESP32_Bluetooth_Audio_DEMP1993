@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -21,51 +20,35 @@
 #include "driver/i2s.h"
 #include "driver/gpio.h"
 #include "avrcp_control.h"
+#include <driver/can.h>
+#include "driver/i2c.h"
 
-
-void remote(void *pvParameter)	//Funktion wird auf zweitem Kern ausgef�hrt (A2DP und main auf ersten)
+void remote(void *pvParameter)	//Funktion wird auf zweitem Kern ausgeführt (A2DP und main auf ersten)
 {
 
 
-	//XSMT Pin config. (D26)
+	//XSMT Pin(DAC) config. (D17)
 	gpio_config_t xsmt_conf;
 	xsmt_conf.intr_type = GPIO_PIN_INTR_DISABLE;
 	xsmt_conf.mode = GPIO_MODE_OUTPUT;
-	xsmt_conf.pin_bit_mask = 1<<26;
+	xsmt_conf.pin_bit_mask = 1<<17;
 	gpio_config(&xsmt_conf);
-	gpio_set_level(26,1);	//D26 auf High(1)
+	gpio_set_level(17,1);	//D17 auf High(1)
 
-	//GPIO
-    gpio_config_t io_conf;
-    //disable interrupt
-    io_conf.intr_type = GPIO_PIN_INTR_DISABLE;
-    //set as output mode
-    io_conf.mode = GPIO_MODE_INPUT;
-    //bit mask of the pins that you want to set
-    io_conf.pin_bit_mask = 1<<4;
-    //pull-down mode(1=enable; 0=disable)
-    io_conf.pull_down_en = 0;
-    //pull-up mode(1=enable; 0=disable)
-    io_conf.pull_up_en = 1;
-    //configure GPIO with the given settings
-    gpio_config(&io_conf);
-
-    int gpio4_time=0;
 
 	while(1)
 	{
 	    vTaskDelay(50 / portTICK_PERIOD_MS);
 
-	    //GPIO
-		int gpio4_level=gpio_get_level(4);
-		//printf("GPIO4: %d \n",gpio4_level);
-		if(gpio4_level==0 && gpio4_time<(esp_timer_get_time()+500))
+	    /*//GPIO
+		int gpio2_level=gpio_get_level(2);
+		printf("GPIO2: %d \n",gpio2_level);
+		if(gpio2_level==0 && gpio2_time<(esp_timer_get_time()+500))
 		{
 			avrcp_play_send_activate();
-			gpio4_time=esp_timer_get_time();
-
+			gpio2_time=esp_timer_get_time();
 		}
-		avrcp_send_commands();
+		avrcp_send_commands();*/
 	}
 
 }
@@ -82,7 +65,7 @@ static void bt_av_hdl_stack_evt(uint16_t event, void *p_param);
 
 void app_main()
 {
-	/* Initialize NVS � it is used to store PHY calibration data */
+	/* Initialize NVS — it is used to store PHY calibration data */
 	    esp_err_t err = nvs_flash_init();
 	    if (err == ESP_ERR_NVS_NO_FREE_PAGES || err == ESP_ERR_NVS_NEW_VERSION_FOUND) {
 	        ESP_ERROR_CHECK(nvs_flash_erase());
@@ -105,9 +88,9 @@ void app_main()
 
 	    i2s_driver_install(0, &i2s_config, 0, NULL);
 	    i2s_pin_config_t pin_config = {
-	        .bck_io_num = 32 /*CONFIG_I2S_BCK_PIN 26*/,
-	        .ws_io_num = 25/*CONFIG_I2S_LRCK_PIN 22*/,
-	        .data_out_num = 33 /*CONFIG_I2S_DATA_PIN 25*/,
+	        .bck_io_num = 19 /*CONFIG_I2S_BCK_PIN 19*/,
+	        .ws_io_num = 5/*CONFIG_I2S_LRCK_PIN 25*/,
+	        .data_out_num = 18 /*CONFIG_I2S_DATA_PIN 5*/,
 	        .data_in_num = -1                                                       //Not used
 	    };
 
@@ -223,7 +206,8 @@ static void bt_av_hdl_stack_evt(uint16_t event, void *p_param)
         esp_avrc_ct_register_callback(bt_app_rc_ct_cb);
 
         /* set discoverable and connectable mode, wait to be connected */
-        esp_bt_gap_set_scan_mode(ESP_BT_SCAN_MODE_CONNECTABLE_DISCOVERABLE);
+        //esp_bt_gap_set_scan_mode(ESP_BT_SCAN_MODE_CONNECTABLE_DISCOVERABLE);
+        esp_bt_gap_set_scan_mode(ESP_BT_CONNECTABLE, ESP_BT_GENERAL_DISCOVERABLE);
         break;
     }
     default:
