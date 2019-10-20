@@ -2,7 +2,7 @@
 This project connects your Bluetooth Audio Source to your Speaker  
 
 You need:  
--The DEMP1993 ESP32 Audio Devolopment Board  
+-The ESP32 Audio Devolopment Board  
 -NODE MCU with ESP 32  
 -Working ESP-IDF  
 
