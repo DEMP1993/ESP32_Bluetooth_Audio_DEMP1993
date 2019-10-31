@@ -1,5 +1,5 @@
 # **ESP32 Audio Connector**
-This project connects your Bluetooth Audio Source to your Speaker  
+This project connects your Audio Source over Bluetooth to the ESP32
 
 You need:  
 -The ESP32 Audio Devolopment Board  
