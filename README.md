@@ -16,7 +16,6 @@ There are more than one Version of the ESP 32 NODE MCU on the marked. They have 
 ESP 32 DEVKIT V1 DOIT Pinout: https://docs.zerynth.com/latest/official/board.zerynth.doit_esp32/docs/index.html
 
 ![Alt-Text](/pictures/DSC_0002.jpg)
-![Alt-Text](/pictures/DSC_0001.jpg)
 
 Features:  
 -Burr-Brown DAC Chip  
