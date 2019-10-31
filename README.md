@@ -10,8 +10,8 @@ You need:
 -The ESP32 Audio Devolopment Board  
 -NODE MCU with ESP 32 (e.g. ESP 32 DEVKIT V1 DOIT)  
 -Working ESP-IDF
--A device which can send A2DP over Bluetooth (e.g. every new smartphone)
--A speaker or headphone
+-A device which can send A2DP over Bluetooth (e.g. every new smartphone)  
+-A speaker or headphone  
 
 There are more than one Version of the ESP 32 NODE MCU on the marked. They have different pinouts. Use a ESP 32 NODE MCU with the ESP 32 DEVKIT V1 DOIT Pinout.
 
