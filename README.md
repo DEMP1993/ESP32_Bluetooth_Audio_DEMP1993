@@ -3,7 +3,7 @@ This project connects your Audio Source over Bluetooth to the ESP32
 
 What it is:  
 You want a wireless audio connection from you bluetooth device to your Speaker or Headphone? 
-This project connects you bluetooth device to the ESP32 (Over Bluetooth A2DP and AVRCP) with the Audio Devolopment Board and this code you can get a clear sound for you Speaker or Headphone.
+This project connects you bluetooth device to the ESP32 (Over Bluetooth A2DP and AVRCP). With the Audio Devolopment Board and this code you can get a clear sound for you Speaker or Headphone.
 ![Alt-Text](/pictures/overview.jpg)
 
 You need:  
