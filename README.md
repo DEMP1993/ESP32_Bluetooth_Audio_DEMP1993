@@ -9,7 +9,7 @@ This project connects you bluetooth device to the ESP32 (Over Bluetooth A2DP and
 You need:  
 -The ESP32 Audio Devolopment Board  
 -NODE MCU with ESP 32 (e.g. ESP 32 DEVKIT V1 DOIT)  
--Working ESP-IDF
+-Working ESP-IDF  
 -A device which can send A2DP over Bluetooth (e.g. every new smartphone)  
 -A speaker or headphone  
 
