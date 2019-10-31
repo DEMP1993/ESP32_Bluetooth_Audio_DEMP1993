@@ -30,7 +30,7 @@ How it works:
 -Download this project and add it to the ESP IDF  
 -Write this Code to the ESP 32 NODE MCU  
 -Plug in the Audio Devolopment Board  
--Connect a Bluetooth device to the ESP32
+-Connect a Bluetooth device to the ESP32  
 -Enjoy
 
 PINOUT:  
