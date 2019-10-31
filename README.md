@@ -13,7 +13,7 @@ You need:
 -A device which can send A2DP over Bluetooth (e.g. every new smartphone)  
 -A speaker or headphone  
   
-There are more than one Version of the ESP 32 NODE MCU on the marked. They have different pinouts. Use a ESP 32 NODE MCU with the ESP 32 DEVKIT V1 DOIT Pinout.
+There are more than one Version of the ESP 32 NODE MCU on the market. They have different pinouts. Use a ESP 32 NODE MCU with the ESP 32 DEVKIT V1 DOIT Pinout.
 
 ESP 32 DEVKIT V1 DOIT Pinout: https://docs.zerynth.com/latest/official/board.zerynth.doit_esp32/docs/index.html
 
