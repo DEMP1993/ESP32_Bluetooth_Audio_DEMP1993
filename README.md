@@ -1,24 +1,24 @@
 # **ESP32 Audio Connector**
 This project connects your Audio Source over Bluetooth to the ESP32
-
+  
 What it is:  
 You want a wireless audio connection from you bluetooth device to your Speaker or Headphone? 
 This project connects you bluetooth device to the ESP32 (Over Bluetooth A2DP and AVRCP). With the Audio Devolopment Board and this code you can get a clear sound for you Speaker or Headphone.
 ![Alt-Text](/pictures/overview.jpg)
-
+  
 You need:  
 -The ESP32 Audio Devolopment Board  
 -NODE MCU with ESP 32 (e.g. ESP 32 DEVKIT V1 DOIT)  
 -Working ESP-IDF  
 -A device which can send A2DP over Bluetooth (e.g. every new smartphone)  
 -A speaker or headphone  
-
+  
 There are more than one Version of the ESP 32 NODE MCU on the marked. They have different pinouts. Use a ESP 32 NODE MCU with the ESP 32 DEVKIT V1 DOIT Pinout.
 
 ESP 32 DEVKIT V1 DOIT Pinout: https://docs.zerynth.com/latest/official/board.zerynth.doit_esp32/docs/index.html
 
 ![Alt-Text](/pictures/DSC_0002.jpg)
-
+  
 Features:  
 -Burr-Brown DAC Chip  
 -Sampling frequency up to 384kHz  
@@ -26,7 +26,7 @@ Features:
 -Low noise Power Supply with low ESR Capacitors  
 -Two tactile switches  
 -6 pin header with GPIOs and ground  
-
+  
 How it works:  
 -Download this project and add it to the ESP IDF  
 -Write this Code to the ESP 32 NODE MCU  
@@ -39,7 +39,7 @@ PINOUT:
 -LRCK           -> D5  
 -DOUT           -> D18  
 -BCK            -> D19  
-
+  
 Planned features:  
 -AVRCP Comands (Play/Pause/Volume...)  
 -Buttons with AVRCP functions  
