@@ -34,7 +34,7 @@ ESP 32 DEVKIT V1 DOIT Pinout: https://docs.zerynth.com/latest/official/board.zer
 -Connect a Bluetooth device to the ESP32  
 -Enjoy
 
-**Conection:**  
+**Conection to DAC:**  
 -XSMT (Mute)    -> D17  
 -LRCK           -> D5  
 -DOUT           -> D18  
