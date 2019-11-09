@@ -45,3 +45,5 @@ ESP 32 DEVKIT V1 DOIT Pinout: https://docs.zerynth.com/latest/official/board.zer
 -Buttons with AVRCP functions  
 -extended 6 Pin Header with AVRCP functions  
 -3D printed case for ESP32 Audio Devolopment Board and NODE MCU
+  
+  <a href="https://www.tindie.com/stores/demp_1993/?ref=offsite_badges&utm_source=sellers_DEMP_1993&utm_medium=badges&utm_campaign=badge_small"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-smalls.png" alt="I sell on Tindie" width="200" height="55"></a>
