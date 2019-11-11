@@ -38,6 +38,7 @@ ESP 32 DEVKIT V1 DOIT Pinout: https://docs.zerynth.com/latest/official/board.zer
 -Enjoy
 
 ### **Conection to DAC:**  
+Here you can find the GPIO usage of the ESP 32 NODE MCU.
 -XSMT (Mute)    -> D17  
 -LRCK           -> D5  
 -DOUT           -> D18  
