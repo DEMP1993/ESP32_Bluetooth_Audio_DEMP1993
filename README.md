@@ -29,7 +29,7 @@ ESP 32 DEVKIT V1 DOIT Pinout: https://docs.zerynth.com/latest/official/board.zer
 -6 pin header with GPIOs and ground  
   
 **How it works:**  
--Download this project and add it to the ESP IDF
+-Download this project and add it to the ESP IDF  
 -Connect the Micro USB Connector from the ESP 32 to your PC  
 -Write this Code to the ESP 32 NODE MCU  
 -Plug in the Audio Devolopment Board  
