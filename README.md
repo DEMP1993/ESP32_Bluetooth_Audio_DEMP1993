@@ -12,6 +12,7 @@ This project connects you bluetooth device to the ESP32 (Over Bluetooth A2DP and
 -Working ESP-IDF  
 -A device which can send A2DP over Bluetooth (e.g. every new smartphone)  
 -A speaker or headphone  
+-USB Powersupply or a  free PC USB-Port
   
 There are more than one Version of the ESP 32 NODE MCU on the market. They have different pinouts. Use a ESP 32 NODE MCU with the ESP 32 DEVKIT V1 DOIT Pinout.
 
