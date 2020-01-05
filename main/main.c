@@ -281,3 +281,4 @@ static void bt_av_hdl_stack_evt(uint16_t event, void *p_param)
         break;
     }
 }
+
