@@ -19,11 +19,34 @@
 #include "esp_avrc_api.h"
 #include "driver/i2s.h"
 #include "driver/gpio.h"
-#include "avrcp_control.h"
 #include <driver/can.h>
 #include "driver/i2c.h"
 
-void remote(void *pvParameter)	//Funktion wird auf zweitem Kern ausgeführt (A2DP und main auf ersten)
+int time_d=0;
+
+void id1(void *pvParameter)	//Debug
+{
+	while (1)
+	{
+		time_d++;
+		vTaskDelay(100 / portTICK_PERIOD_MS);
+		printf("CPU1 IDLE in mS: %d \n",time_d);
+	}
+	
+}
+
+void id0(void *pvParameter)	//Debug
+{
+	while (1)
+	{
+		time_d++;
+		vTaskDelay(100 / portTICK_PERIOD_MS);
+		printf("CPU0 IDLE in mS: %d \n",time_d);
+	}
+	
+}
+
+void remote(void *pvParameter)	//Works on the second core (A2DP and main on first one)
 {
 
 
@@ -35,20 +58,61 @@ void remote(void *pvParameter)	//Funktion wird auf zweitem Kern ausgeführt (A2D
 	gpio_config(&xsmt_conf);
 	gpio_set_level(17,1);	//D17 auf High(1)
 
+	//tactile button sw1 (D22)
+	gpio_config_t sw1_conf;
+	sw1_conf.intr_type = GPIO_PIN_INTR_DISABLE;
+	sw1_conf.mode = GPIO_MODE_INPUT;
+	sw1_conf.pin_bit_mask = 1<<22;
+    sw1_conf.pull_down_en = 0;
+    sw1_conf.pull_up_en = 1;
+	gpio_config(&sw1_conf);
+
+	//tactile button sw2 (D23)
+	gpio_config_t sw2_conf;
+	sw2_conf.intr_type = GPIO_PIN_INTR_DISABLE;
+	sw2_conf.mode = GPIO_MODE_INPUT;
+	sw2_conf.pin_bit_mask = 1<<23;
+    sw2_conf.pull_down_en = 0;
+    sw2_conf.pull_up_en = 1;
+	gpio_config(&sw2_conf);
+
+	int gpio22_time=0;
+	int gpio23_time=0;
+	int gpio22_level=1;
+	int gpio23_level=1;
+
+	//int title_time=0;
 
 	while(1)
 	{
-	    vTaskDelay(50 / portTICK_PERIOD_MS);
+	    vTaskDelay(100 / portTICK_PERIOD_MS);
 
-	    /*//GPIO
-		int gpio2_level=gpio_get_level(2);
-		printf("GPIO2: %d \n",gpio2_level);
-		if(gpio2_level==0 && gpio2_time<(esp_timer_get_time()+500))
+		/*if((title_time+1000000)<esp_timer_get_time())	//request the titel over AVRC every 1s//DBG
 		{
-			avrcp_play_send_activate();
-			gpio2_time=esp_timer_get_time();
+			esp_avrc_ct_send_metadata_cmd(2,ESP_AVRC_MD_ATTR_TITLE);
+			title_time=esp_timer_get_time();
+		}*/
+
+		gpio22_level=gpio_get_level(22);	//get GPIO22 level
+		gpio23_level=gpio_get_level(23);	//get GPIO23 level
+
+		//Sends Command over AVRCP if SW1 is pressed
+		if(gpio22_level==0 && (gpio22_time+1000000)<esp_timer_get_time())
+		{
+			esp_err_t e_state=esp_avrc_ct_send_passthrough_cmd(1,ESP_AVRC_PT_CMD_PLAY,ESP_AVRC_PT_CMD_STATE_PRESSED);
+			printf("Error State: %s \n",esp_err_to_name(e_state));
+			gpio22_time=esp_timer_get_time();
+			printf("GPIO22 Triggered!\n");
 		}
-		avrcp_send_commands();*/
+
+		//Sends Command over AVRCP if SW2 is pressed
+		if(gpio23_level==0 && (gpio23_time+1000000)<esp_timer_get_time())
+		{
+			esp_err_t e_state=esp_avrc_ct_send_passthrough_cmd(0,ESP_AVRC_PT_CMD_PAUSE,ESP_AVRC_PT_CMD_STATE_PRESSED);
+			printf("Error State: %s \n",esp_err_to_name(e_state));
+			gpio23_time=esp_timer_get_time();
+			printf("GPIO23 Triggered! \n");
+		}
 	}
 
 }
@@ -89,11 +153,10 @@ void app_main()
 	    i2s_driver_install(0, &i2s_config, 0, NULL);
 	    i2s_pin_config_t pin_config = {
 	        .bck_io_num = 19 /*CONFIG_I2S_BCK_PIN 19*/,
-	        .ws_io_num = 5/*CONFIG_I2S_LRCK_PIN 25*/,
-	        .data_out_num = 18 /*CONFIG_I2S_DATA_PIN 5*/,
-	        .data_in_num = -1                                                       //Not used
+	        .ws_io_num = 5/*CONFIG_I2S_LRCK_PIN 5*/,
+	        .data_out_num = 18 /*CONFIG_I2S_DATA_PIN 18*/,
+	        .data_in_num = -1  //Not used
 	    };
-
 	    i2s_set_pin(0, &pin_config);
 
 
@@ -145,9 +208,12 @@ void app_main()
 	    pin_code[3] = '4';
 	    esp_bt_gap_set_pin(pin_type, 4, pin_code);
 
-    //Code zur Main hinzufuegt-----------------------------------------------------------
+    //Code added to example-----------------------------------------------------------
 
-    xTaskCreatePinnedToCore(&remote, "remote", 8048, NULL, 5, NULL,1);
+    xTaskCreatePinnedToCore(&remote, "remote", 8048, NULL, 2, NULL,1);
+
+	//xTaskCreatePinnedToCore(&id1, "id1", 4096, NULL, 0, NULL, 1);	//DEBUG CPU Usage Core1
+	//xTaskCreatePinnedToCore(&id0, "id0", 4096, NULL, 0, NULL, 0);	//DEBUG CPU Usage Core0
 
     //--------------------------------
 

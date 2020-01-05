@@ -65,7 +65,7 @@ Discarded input sections
  .data          0x00000000        0x0 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
  .bss           0x00000000        0x0 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
  .xt.lit        0x00000000       0x58 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
- .xt.prop       0x00000000      0x5f4 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .xt.prop       0x00000000      0x60c C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
  .literal.write_status_8b_wrsr2
                 0x00000000        0x4 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(flash_qio_mode.o)
  .literal.read_status_8b_rdsr2
@@ -987,7 +987,7 @@ END GROUP
  *(.gnu.version)
                 0x4007ae5d                _loader_text_end = ABSOLUTE (.)
 
-.iram.text      0x40080400     0x19ea
+.iram.text      0x40080400     0x1a1e
                 0x40080400                . = ALIGN (0x10)
  *(.entry.text)
  *(.init.literal)
@@ -1021,315 +1021,315 @@ END GROUP
  .literal.update_flash_config
                 0x400804e4       0x24 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
  .literal.bootloader_main
-                0x40080508       0x2c C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
-                                 0xa4 (size before relaxing)
+                0x40080508       0x34 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                                 0xb4 (size before relaxing)
  .literal.__assert_func
-                0x40080534        0x4 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                0x4008053c        0x4 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
                                  0x10 (size before relaxing)
  .literal.bootloader_init
-                0x40080538       0x48 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                0x40080540       0x48 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
                                  0x74 (size before relaxing)
  .literal.abort
-                0x40080580        0x8 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                0x40080588        0x8 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
                                  0x10 (size before relaxing)
  .literal.execute_flash_command
-                0x40080588       0x38 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(flash_qio_mode.o)
+                0x40080590       0x38 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(flash_qio_mode.o)
                                  0x3c (size before relaxing)
  .literal.bootloader_read_flash_id
-                0x400805c0        0x8 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(flash_qio_mode.o)
+                0x400805c8        0x8 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(flash_qio_mode.o)
                                   0xc (size before relaxing)
  .literal.bootloader_clock_configure
-                0x400805c8       0x18 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_clock.o)
+                0x400805d0       0x14 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_clock.o)
                                  0x2c (size before relaxing)
  .literal.rtc_clk_32k_enable_common
-                0x400805e0       0x18 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x400805e4       0x18 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .literal.rtc_clk_bbpll_disable
-                0x400805f8        0xc C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x400805fc        0xc C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                  0x10 (size before relaxing)
  .literal.rtc_clk_bbpll_enable
-                0x40080604        0x8 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40080608        0x8 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                  0x1c (size before relaxing)
  .literal.rtc_clk_32k_enable
-                0x4008060c        0x8 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40080610        0x8 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                  0x10 (size before relaxing)
  .literal.rtc_clk_8m_enable
-                0x40080614       0x10 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40080618       0x10 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .literal.rtc_clk_8m_enabled
-                0x40080624        0x0 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
-                                  0x4 (size before relaxing)
- .literal.rtc_clk_8md256_enabled
-                0x40080624        0x0 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
-                                  0x4 (size before relaxing)
- .literal.rtc_clk_slow_freq_set
-                0x40080624        0x4 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
-                                  0xc (size before relaxing)
- .literal.rtc_clk_slow_freq_get
                 0x40080628        0x0 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                   0x4 (size before relaxing)
+ .literal.rtc_clk_8md256_enabled
+                0x40080628        0x0 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                                  0x4 (size before relaxing)
+ .literal.rtc_clk_slow_freq_set
+                0x40080628        0x4 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                                  0xc (size before relaxing)
+ .literal.rtc_clk_slow_freq_get
+                0x4008062c        0x0 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                                  0x4 (size before relaxing)
  .literal.rtc_clk_slow_freq_get_hz
-                0x40080628        0xc C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x4008062c        0xc C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                  0x10 (size before relaxing)
  .literal.rtc_clk_fast_freq_set
-                0x40080634        0x0 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40080638        0x0 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                  0x10 (size before relaxing)
  .literal.rtc_clk_fast_freq_get
-                0x40080634        0x0 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40080638        0x0 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                   0x4 (size before relaxing)
  .literal.rtc_clk_bbpll_configure
-                0x40080634       0x10 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40080638       0x10 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                  0x40 (size before relaxing)
  .literal.rtc_clk_xtal_freq_get
-                0x40080644        0x8 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40080648        0x8 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .literal.rtc_clk_cpu_freq_mhz_to_config
-                0x4008064c        0x0 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40080650        0x0 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                   0x4 (size before relaxing)
  .literal.rtc_clk_cpu_freq_get_config
-                0x4008064c        0xc C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40080650        0xc C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                  0x30 (size before relaxing)
  .literal.rtc_clk_xtal_freq_update
-                0x40080658        0x4 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x4008065c        0x4 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                   0x8 (size before relaxing)
  .literal.rtc_clk_apb_freq_update
-                0x4008065c        0x4 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40080660        0x4 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .literal.rtc_clk_cpu_freq_to_xtal
-                0x40080660       0x10 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40080664       0x10 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                  0x2c (size before relaxing)
  .literal.rtc_clk_cpu_freq_to_pll_mhz
-                0x40080670        0xc C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40080674        0xc C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                  0x44 (size before relaxing)
  .literal.rtc_clk_cpu_freq_to_8m
-                0x4008067c        0x8 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40080680        0x8 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                  0x28 (size before relaxing)
  .literal.rtc_clk_cpu_freq_set_config
-                0x40080684        0x0 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40080688        0x0 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                  0x30 (size before relaxing)
  .literal.rtc_clk_apb_freq_get
-                0x40080684        0xc C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40080688        0xc C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                  0x14 (size before relaxing)
  .literal.rtc_clk_cal_internal
-                0x40080690       0x3c C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_time.o)
+                0x40080694       0x3c C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_time.o)
                                  0x70 (size before relaxing)
  .literal.rtc_clk_cal_ratio
-                0x400806cc        0x0 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_time.o)
+                0x400806d0        0x0 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_time.o)
                                   0x8 (size before relaxing)
  .literal.rtc_clk_wait_for_slow_cycle
-                0x400806cc        0x8 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_time.o)
+                0x400806d0        0x8 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_time.o)
                                  0x20 (size before relaxing)
  .literal.rtc_clk_xtal_freq_estimate
-                0x400806d4       0x1c C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
+                0x400806d8       0x1c C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
                                  0x4c (size before relaxing)
  .literal.rtc_clk_init
-                0x400806f0       0x30 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
+                0x400806f4       0x30 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
                                  0xa8 (size before relaxing)
  .literal.rtc_vddsdio_get_config
-                0x40080720        0xc C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_init.o)
+                0x40080724        0xc C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_init.o)
                                  0x10 (size before relaxing)
  .literal.rtc_vddsdio_set_config
-                0x4008072c        0x0 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_init.o)
+                0x40080730        0x0 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_init.o)
                                   0x8 (size before relaxing)
  .text.selected_boot_partition
-                0x4008072c        0xc C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x40080730        0xc C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0x10 (size before relaxing)
  .text.select_partition_number
-                0x40080738       0x30 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x4008073c       0x30 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0x34 (size before relaxing)
  .text.call_start_cpu0
-                0x40080768       0x35 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/main\libmain.a(bootloader_start.o)
+                0x4008076c       0x35 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/main\libmain.a(bootloader_start.o)
                                  0x3c (size before relaxing)
-                0x40080768                call_start_cpu0
- *fill*         0x4008079d        0x3 
+                0x4008076c                call_start_cpu0
+ *fill*         0x400807a1        0x3 
  .text.wdt_reset_cpu0_info_enable
-                0x400807a0       0x27 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
- *fill*         0x400807c7        0x1 
+                0x400807a4       0x27 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ *fill*         0x400807cb        0x1 
  .text.wdt_reset_info_dump
-                0x400807c8       0xe6 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                0x400807cc       0xe6 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
                                  0xea (size before relaxing)
- *fill*         0x400808ae        0x2 
+ *fill*         0x400808b2        0x2 
  .text.print_flash_info
-                0x400808b0       0xf3 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
- *fill*         0x400809a3        0x1 
+                0x400808b4       0xf3 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ *fill*         0x400809a7        0x1 
  .text.uart_console_configure
-                0x400809a4       0x36 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                0x400809a8       0x36 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
                                  0x3a (size before relaxing)
- *fill*         0x400809da        0x2 
+ *fill*         0x400809de        0x2 
  .text.wdt_reset_check
-                0x400809dc       0xa6 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                0x400809e0       0xa6 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
                                  0xb1 (size before relaxing)
- *fill*         0x40080a82        0x2 
+ *fill*         0x40080a86        0x2 
  .text.update_flash_config
-                0x40080a84       0x64 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                0x40080a88       0x64 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
  .text.bootloader_main
-                0x40080ae8       0xe4 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
-                                0x12c (size before relaxing)
+                0x40080aec      0x114 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                                0x15c (size before relaxing)
  .text.__assert_func
-                0x40080bcc       0x1f C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                0x40080c00       0x1f C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
                                  0x23 (size before relaxing)
-                0x40080bcc                __assert_func
- *fill*         0x40080beb        0x1 
+                0x40080c00                __assert_func
+ *fill*         0x40080c1f        0x1 
  .text.bootloader_init
-                0x40080bec      0x12e C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                0x40080c20      0x12e C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
                                 0x13a (size before relaxing)
-                0x40080bec                bootloader_init
- *fill*         0x40080d1a        0x2 
- .text.abort    0x40080d1c       0x2c C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                0x40080c20                bootloader_init
+ *fill*         0x40080d4e        0x2 
+ .text.abort    0x40080d50       0x2c C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
                                  0x2f (size before relaxing)
-                0x40080d1c                abort
- *fill*         0x40080d48        0x0 
+                0x40080d50                abort
+ *fill*         0x40080d7c        0x0 
  .text.execute_flash_command
-                0x40080d48      0x18c C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(flash_qio_mode.o)
+                0x40080d7c      0x18c C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(flash_qio_mode.o)
  .text.bootloader_read_flash_id
-                0x40080ed4       0x2a C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(flash_qio_mode.o)
+                0x40080f08       0x2a C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(flash_qio_mode.o)
                                  0x2e (size before relaxing)
-                0x40080ed4                bootloader_read_flash_id
- *fill*         0x40080efe        0x2 
+                0x40080f08                bootloader_read_flash_id
+ *fill*         0x40080f32        0x2 
  .text.bootloader_clock_configure
-                0x40080f00       0x8e C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_clock.o)
+                0x40080f34       0x8e C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_clock.o)
                                  0x96 (size before relaxing)
-                0x40080f00                bootloader_clock_configure
- *fill*         0x40080f8e        0x2 
+                0x40080f34                bootloader_clock_configure
+ *fill*         0x40080fc2        0x2 
  .text.rtc_clk_32k_enable_common
-                0x40080f90       0x88 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40080fc4       0x88 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .text.rtc_clk_bbpll_disable
-                0x40081018       0x3e C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
- *fill*         0x40081056        0x2 
+                0x4008104c       0x3e C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+ *fill*         0x4008108a        0x2 
  .text.rtc_clk_bbpll_enable
-                0x40081058       0x66 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
- *fill*         0x400810be        0x2 
+                0x4008108c       0x66 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+ *fill*         0x400810f2        0x2 
  .text.rtc_clk_32k_enable
-                0x400810c0       0x3d C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
-                0x400810c0                rtc_clk_32k_enable
- *fill*         0x400810fd        0x3 
+                0x400810f4       0x3d C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x400810f4                rtc_clk_32k_enable
+ *fill*         0x40081131        0x3 
  .text.rtc_clk_8m_enable
-                0x40081100       0x9c C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
-                0x40081100                rtc_clk_8m_enable
+                0x40081134       0x9c C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40081134                rtc_clk_8m_enable
  .text.rtc_clk_8m_enabled
-                0x4008119c       0x1b C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
-                0x4008119c                rtc_clk_8m_enabled
- *fill*         0x400811b7        0x1 
+                0x400811d0       0x1b C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x400811d0                rtc_clk_8m_enabled
+ *fill*         0x400811eb        0x1 
  .text.rtc_clk_8md256_enabled
-                0x400811b8       0x1c C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
-                0x400811b8                rtc_clk_8md256_enabled
+                0x400811ec       0x1c C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x400811ec                rtc_clk_8md256_enabled
  .text.rtc_clk_slow_freq_set
-                0x400811d4       0x48 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
-                0x400811d4                rtc_clk_slow_freq_set
+                0x40081208       0x48 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40081208                rtc_clk_slow_freq_set
  .text.rtc_clk_slow_freq_get
-                0x4008121c       0x10 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
-                0x4008121c                rtc_clk_slow_freq_get
+                0x40081250       0x10 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40081250                rtc_clk_slow_freq_get
  .text.rtc_clk_slow_freq_get_hz
-                0x4008122c       0x29 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40081260       0x29 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                  0x2d (size before relaxing)
-                0x4008122c                rtc_clk_slow_freq_get_hz
- *fill*         0x40081255        0x3 
+                0x40081260                rtc_clk_slow_freq_get_hz
+ *fill*         0x40081289        0x3 
  .text.rtc_clk_fast_freq_set
-                0x40081258       0x2c C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
-                0x40081258                rtc_clk_fast_freq_set
+                0x4008128c       0x2c C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x4008128c                rtc_clk_fast_freq_set
  .text.rtc_clk_fast_freq_get
-                0x40081284       0x10 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
-                0x40081284                rtc_clk_fast_freq_get
+                0x400812b8       0x10 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x400812b8                rtc_clk_fast_freq_get
  .text.rtc_clk_bbpll_configure
-                0x40081294      0x19d C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x400812c8      0x19d C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                 0x1a1 (size before relaxing)
-                0x40081294                rtc_clk_bbpll_configure
- *fill*         0x40081431        0x3 
+                0x400812c8                rtc_clk_bbpll_configure
+ *fill*         0x40081465        0x3 
  .text.rtc_clk_xtal_freq_get
-                0x40081434       0x36 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
-                0x40081434                rtc_clk_xtal_freq_get
-                0x40081434                rtc_get_xtal
- *fill*         0x4008146a        0x2 
+                0x40081468       0x36 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40081468                rtc_clk_xtal_freq_get
+                0x40081468                rtc_get_xtal
+ *fill*         0x4008149e        0x2 
  .text.rtc_clk_cpu_freq_mhz_to_config
-                0x4008146c       0x64 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
-                0x4008146c                rtc_clk_cpu_freq_mhz_to_config
+                0x400814a0       0x64 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x400814a0                rtc_clk_cpu_freq_mhz_to_config
  .text.rtc_clk_cpu_freq_get_config
-                0x400814d0       0xa7 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40081504       0xa7 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                  0xb3 (size before relaxing)
-                0x400814d0                rtc_clk_cpu_freq_get_config
- *fill*         0x40081577        0x1 
+                0x40081504                rtc_clk_cpu_freq_get_config
+ *fill*         0x400815ab        0x1 
  .text.rtc_clk_xtal_freq_update
-                0x40081578       0x2c C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
-                0x40081578                rtc_clk_xtal_freq_update
+                0x400815ac       0x2c C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x400815ac                rtc_clk_xtal_freq_update
  .text.rtc_clk_apb_freq_update
-                0x400815a4       0x19 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
-                0x400815a4                rtc_clk_apb_freq_update
- *fill*         0x400815bd        0x3 
+                0x400815d8       0x19 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x400815d8                rtc_clk_apb_freq_update
+ *fill*         0x400815f1        0x3 
  .text.rtc_clk_cpu_freq_to_xtal
-                0x400815c0       0x87 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x400815f4       0x87 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                  0x8b (size before relaxing)
-                0x400815c0                rtc_clk_cpu_freq_to_xtal
- *fill*         0x40081647        0x1 
+                0x400815f4                rtc_clk_cpu_freq_to_xtal
+ *fill*         0x4008167b        0x1 
  .text.rtc_clk_cpu_freq_to_pll_mhz
-                0x40081648       0xa0 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x4008167c       0xa0 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                  0xa8 (size before relaxing)
  .text.rtc_clk_cpu_freq_to_8m
-                0x400816e8       0x58 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x4008171c       0x58 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                  0x5c (size before relaxing)
  .text.rtc_clk_cpu_freq_set_config
-                0x40081740       0x5c C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x40081774       0x5c C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
                                  0x77 (size before relaxing)
-                0x40081740                rtc_clk_cpu_freq_set_config
- *fill*         0x4008179c        0x0 
+                0x40081774                rtc_clk_cpu_freq_set_config
+ *fill*         0x400817d0        0x0 
  .text.rtc_clk_apb_freq_get
-                0x4008179c       0x2a C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
-                0x4008179c                rtc_clk_apb_freq_get
- *fill*         0x400817c6        0x2 
+                0x400817d0       0x2a C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x400817d0                rtc_clk_apb_freq_get
+ *fill*         0x400817fa        0x2 
  .text.rtc_clk_cal_internal
-                0x400817c8      0x1d0 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_time.o)
+                0x400817fc      0x1d0 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_time.o)
                                 0x1dc (size before relaxing)
  .text.rtc_clk_cal_ratio
-                0x40081998       0x20 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_time.o)
+                0x400819cc       0x20 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_time.o)
                                  0x24 (size before relaxing)
-                0x40081998                rtc_clk_cal_ratio
+                0x400819cc                rtc_clk_cal_ratio
  .text.rtc_clk_wait_for_slow_cycle
-                0x400819b8       0x79 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_time.o)
-                0x400819b8                rtc_clk_wait_for_slow_cycle
- *fill*         0x40081a31        0x3 
+                0x400819ec       0x79 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_time.o)
+                0x400819ec                rtc_clk_wait_for_slow_cycle
+ *fill*         0x40081a65        0x3 
  .text.rtc_clk_xtal_freq_estimate
-                0x40081a34       0xab C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
+                0x40081a68       0xab C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
                                  0xb7 (size before relaxing)
- *fill*         0x40081adf        0x1 
+ *fill*         0x40081b13        0x1 
  .text.rtc_clk_init
-                0x40081ae0      0x1ea C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
+                0x40081b14      0x1ea C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
                                 0x21e (size before relaxing)
-                0x40081ae0                rtc_clk_init
- *fill*         0x40081cca        0x2 
+                0x40081b14                rtc_clk_init
+ *fill*         0x40081cfe        0x2 
  .text.rtc_vddsdio_get_config
-                0x40081ccc       0xd7 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_init.o)
-                0x40081ccc                rtc_vddsdio_get_config
- *fill*         0x40081da3        0x1 
+                0x40081d00       0xd7 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_init.o)
+                0x40081d00                rtc_vddsdio_get_config
+ *fill*         0x40081dd7        0x1 
  .text.rtc_vddsdio_set_config
-                0x40081da4       0x46 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_init.o)
-                0x40081da4                rtc_vddsdio_set_config
- *fill*         0x40081dea        0x0 
- *fill*         0x40081dea        0x0 
- *fill*         0x40081dea        0x0 
- *fill*         0x40081dea        0x0 
- *fill*         0x40081dea        0x0 
- *fill*         0x40081dea        0x0 
- *fill*         0x40081dea        0x0 
- *fill*         0x40081dea        0x0 
- *fill*         0x40081dea        0x0 
- *fill*         0x40081dea        0x0 
- *fill*         0x40081dea        0x0 
- *fill*         0x40081dea        0x0 
- *fill*         0x40081dea        0x0 
- *fill*         0x40081dea        0x0 
- *fill*         0x40081dea        0x0 
- *fill*         0x40081dea        0x0 
- *fill*         0x40081dea        0x0 
- *fill*         0x40081dea        0x0 
- *fill*         0x40081dea        0x0 
- *fill*         0x40081dea        0x0 
- *fill*         0x40081dea        0x0 
- *fill*         0x40081dea        0x0 
- *fill*         0x40081dea        0x0 
- *fill*         0x40081dea        0x0 
- *fill*         0x40081dea        0x0 
- *fill*         0x40081dea        0x0 
+                0x40081dd8       0x46 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_init.o)
+                0x40081dd8                rtc_vddsdio_set_config
+ *fill*         0x40081e1e        0x0 
+ *fill*         0x40081e1e        0x0 
+ *fill*         0x40081e1e        0x0 
+ *fill*         0x40081e1e        0x0 
+ *fill*         0x40081e1e        0x0 
+ *fill*         0x40081e1e        0x0 
+ *fill*         0x40081e1e        0x0 
+ *fill*         0x40081e1e        0x0 
+ *fill*         0x40081e1e        0x0 
+ *fill*         0x40081e1e        0x0 
+ *fill*         0x40081e1e        0x0 
+ *fill*         0x40081e1e        0x0 
+ *fill*         0x40081e1e        0x0 
+ *fill*         0x40081e1e        0x0 
+ *fill*         0x40081e1e        0x0 
+ *fill*         0x40081e1e        0x0 
+ *fill*         0x40081e1e        0x0 
+ *fill*         0x40081e1e        0x0 
+ *fill*         0x40081e1e        0x0 
+ *fill*         0x40081e1e        0x0 
+ *fill*         0x40081e1e        0x0 
+ *fill*         0x40081e1e        0x0 
+ *fill*         0x40081e1e        0x0 
+ *fill*         0x40081e1e        0x0 
+ *fill*         0x40081e1e        0x0 
+ *fill*         0x40081e1e        0x0 
  *(.iram .iram.*)
  *(.fini.literal)
  *(.fini)
  *(.gnu.version)
-                0x40081dea                _text_end = ABSOLUTE (.)
-                0x40081dea                _etext = .
+                0x40081e1e                _text_end = ABSOLUTE (.)
+                0x40081e1e                _etext = .
 
 .dram0.bss      0x3fff0000       0x18
                 0x3fff0000                . = ALIGN (0x8)
@@ -1378,7 +1378,7 @@ END GROUP
  *(.jcr)
                 0x3fff001c                _data_end = ABSOLUTE (.)
 
-.dram0.rodata   0x3fff001c     0x1958
+.dram0.rodata   0x3fff001c     0x19b8
                 0x3fff001c                _rodata_start = ABSOLUTE (.)
  *(.rodata)
  .rodata        0x3fff001c       0x14 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
@@ -1433,129 +1433,129 @@ END GROUP
  .rodata.update_flash_config
                 0x3fff08bc       0x14 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
  .rodata.bootloader_main.str1.4
-                0x3fff08d0       0xfc C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                0x3fff08d0      0x15c C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
  .rodata.__assert_func.str1.4
-                0x3fff09cc       0x37 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
- *fill*         0x3fff0a03        0x1 
+                0x3fff0a2c       0x37 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ *fill*         0x3fff0a63        0x1 
  .rodata.bootloader_init.str1.4
-                0x3fff0a04       0xb2 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
- *fill*         0x3fff0ab6        0x2 
+                0x3fff0a64       0xb2 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ *fill*         0x3fff0b16        0x2 
  .rodata.abort.str1.4
-                0x3fff0ab8       0x22 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
- *fill*         0x3fff0ada        0x2 
+                0x3fff0b18       0x22 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ *fill*         0x3fff0b3a        0x2 
  .rodata.__func__$7567
-                0x3fff0adc       0x10 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                0x3fff0b3c       0x10 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
  .rodata.bootloader_flash_read_allow_decrypt.str1.4
-                0x3fff0aec       0x4b C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
- *fill*         0x3fff0b37        0x1 
+                0x3fff0b4c       0x4b C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ *fill*         0x3fff0b97        0x1 
  .rodata.bootloader_mmap.str1.4
-                0x3fff0b38       0x6e C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
- *fill*         0x3fff0ba6        0x2 
+                0x3fff0b98       0x6e C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ *fill*         0x3fff0c06        0x2 
  .rodata.bootloader_flash_read.str1.4
-                0x3fff0ba8       0xe6 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
- *fill*         0x3fff0c8e        0x2 
+                0x3fff0c08       0xe6 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ *fill*         0x3fff0cee        0x2 
  .rodata.bootloader_flash_write.str1.4
-                0x3fff0c90       0xea C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
- *fill*         0x3fff0d7a        0x2 
+                0x3fff0cf0       0xea C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ *fill*         0x3fff0dda        0x2 
  .rodata.bootloader_fill_random.str1.4
-                0x3fff0d7c       0x66 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
- *fill*         0x3fff0de2        0x2 
+                0x3fff0ddc       0x66 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+ *fill*         0x3fff0e42        0x2 
  .rodata.__func__$4747
-                0x3fff0de4       0x17 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
- *fill*         0x3fff0dfb        0x1 
+                0x3fff0e44       0x17 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+ *fill*         0x3fff0e5b        0x1 
  .rodata.verify_image_header.str1.4
-                0x3fff0dfc       0xc5 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- *fill*         0x3fff0ec1        0x3 
+                0x3fff0e5c       0xc5 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ *fill*         0x3fff0f21        0x3 
  .rodata.verify_segment_header.str1.4
-                0x3fff0ec4       0x85 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- *fill*         0x3fff0f49        0x3 
+                0x3fff0f24       0x85 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ *fill*         0x3fff0fa9        0x3 
  .rodata.verify_checksum.str1.4
-                0x3fff0f4c       0x42 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                0x3fff0fac       0x42 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
  .rodata.process_segment_data.str1.4
-                0x3fff0f8e       0x3a C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- *fill*         0x3fff0f8e        0x2 
+                0x3fff0fee       0x3a C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ *fill*         0x3fff0fee        0x2 
  .rodata.verify_simple_hash.str1.4
-                0x3fff0f90       0x5a C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- *fill*         0x3fff0fea        0x2 
+                0x3fff0ff0       0x5a C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ *fill*         0x3fff104a        0x2 
  .rodata.process_segment.str1.4
-                0x3fff0fec      0x20b C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                0x3fff104c      0x20b C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
                                 0x20f (size before relaxing)
- *fill*         0x3fff11f7        0x1 
+ *fill*         0x3fff1257        0x1 
  .rodata.image_load.str1.4
-                0x3fff11f8      0x10a C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- *fill*         0x3fff1302        0x2 
+                0x3fff1258      0x10a C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ *fill*         0x3fff1362        0x2 
  .rodata.__func__$4278
-                0x3fff1304       0x20 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                0x3fff1364       0x20 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
  .rodata.esp_partition_table_verify.str1.4
-                0x3fff1324      0x163 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
- *fill*         0x3fff1487        0x1 
+                0x3fff1384      0x163 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ *fill*         0x3fff14e7        0x1 
  .rodata.bootloader_sha256_data.str1.4
-                0x3fff1488       0x7e C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
- *fill*         0x3fff1506        0x2 
+                0x3fff14e8       0x7e C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+ *fill*         0x3fff1566        0x2 
  .rodata.bootloader_sha256_finish.str1.4
-                0x3fff1508       0x5c C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+                0x3fff1568       0x5c C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
  .rodata.padding$4087
-                0x3fff1564       0x40 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+                0x3fff15c4       0x40 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
  .rodata.__func__$4083
-                0x3fff15a4       0x19 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
- *fill*         0x3fff15bd        0x3 
+                0x3fff1604       0x19 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+ *fill*         0x3fff161d        0x3 
  .rodata.__func__$4063
-                0x3fff15c0       0x17 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
- *fill*         0x3fff15d7        0x1 
+                0x3fff1620       0x17 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+ *fill*         0x3fff1637        0x1 
  .rodata.rtc_clk_cpu_freq_value.str1.4
-                0x3fff15d8       0x3c C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+                0x3fff1638       0x3c C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
  .rodata.rtc_clk_cpu_freq_get_config.str1.4
-                0x3fff1614       0x3b C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
- *fill*         0x3fff164f        0x1 
+                0x3fff1674       0x3b C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+ *fill*         0x3fff16af        0x1 
  .rodata.rtc_clk_cpu_freq_to_pll_mhz.str1.4
-                0x3fff1650       0x29 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
- *fill*         0x3fff1679        0x3 
+                0x3fff16b0       0x29 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+ *fill*         0x3fff16d9        0x3 
  .rodata.rtc_clk_cal_internal.str1.4
-                0x3fff167c       0xad C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_time.o)
- *fill*         0x3fff1729        0x3 
+                0x3fff16dc       0xad C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_time.o)
+ *fill*         0x3fff1789        0x3 
  .rodata.__func__$3589
-                0x3fff172c       0x15 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_time.o)
- *fill*         0x3fff1741        0x3 
+                0x3fff178c       0x15 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_time.o)
+ *fill*         0x3fff17a1        0x3 
  .rodata.rtc_clk_xtal_freq_estimate.str1.4
-                0x3fff1744       0xec C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
+                0x3fff17a4       0xec C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
  .rodata.rtc_clk_xtal_freq_estimate
-                0x3fff1830       0x64 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
+                0x3fff1890       0x64 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
  .rodata.rtc_clk_init.str1.4
-                0x3fff1894       0xe0 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
+                0x3fff18f4       0xe0 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
                                  0xdf (size before relaxing)
  *(.gnu.linkonce.r.*)
  *(.rodata1)
-                0x3fff1974                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
+                0x3fff19d4                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
  *(.xt_except_table)
  *(.gcc_except_table)
  *(.gnu.linkonce.e.*)
  *(.gnu.version_r)
  *(.eh_frame)
-                0x3fff1974                . = ((. + 0x3) & 0xfffffffc)
-                0x3fff1974                __init_array_start = ABSOLUTE (.)
+                0x3fff19d4                . = ((. + 0x3) & 0xfffffffc)
+                0x3fff19d4                __init_array_start = ABSOLUTE (.)
  *crtbegin.*(.ctors)
  *(EXCLUDE_FILE(*crtend.*) .ctors)
  *(SORT_BY_NAME(.ctors.*))
  *(.ctors)
-                0x3fff1974                __init_array_end = ABSOLUTE (.)
+                0x3fff19d4                __init_array_end = ABSOLUTE (.)
  *crtbegin.*(.dtors)
  *(EXCLUDE_FILE(*crtend.*) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
-                0x3fff1974                __XT_EXCEPTION_DESCS_ = ABSOLUTE (.)
+                0x3fff19d4                __XT_EXCEPTION_DESCS_ = ABSOLUTE (.)
  *(.xt_except_desc)
  *(.gnu.linkonce.h.*)
-                0x3fff1974                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
+                0x3fff19d4                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
  *(.xt_except_desc_end)
  *(.dynamic)
  *(.gnu.version_d)
-                0x3fff1974                _rodata_end = ABSOLUTE (.)
-                0x3fff1974                _lit4_start = ABSOLUTE (.)
+                0x3fff19d4                _rodata_end = ABSOLUTE (.)
+                0x3fff19d4                _lit4_start = ABSOLUTE (.)
  *(*.lit4)
  *(.lit4.*)
  *(.gnu.linkonce.lit4.*)
-                0x3fff1974                _lit4_end = ABSOLUTE (.)
-                0x3fff1974                . = ALIGN (0x4)
+                0x3fff19d4                _lit4_end = ABSOLUTE (.)
+                0x3fff19d4                . = ALIGN (0x4)
                 0x40008550                PROVIDE (ets_update_cpu_frequency = 0x40008550)
                 0x4005db1c                PROVIDE (MD5Final = 0x4005db1c)
                 0x4005da7c                PROVIDE (MD5Init = 0x4005da7c)
@@ -3258,28 +3258,28 @@ OUTPUT(C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/b
  .debug_frame   0x00001198       0x28 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0\libgcc.a(_bswapsi2.o)
  .debug_frame   0x000011c0       0x28 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0\libgcc.a(_udivdi3.o)
 
-.debug_info     0x00000000    0x53d39
+.debug_info     0x00000000    0x53d62
  .debug_info    0x00000000      0xca0 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/main\libmain.a(bootloader_start.o)
  .debug_info    0x00000ca0     0x8224 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
- .debug_info    0x00008ec4     0xa70d C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
- .debug_info    0x000135d1     0x3939 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(flash_qio_mode.o)
- .debug_info    0x00016f0a     0x208a C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
- .debug_info    0x00018f94     0x6d65 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
- .debug_info    0x0001fcf9     0x2972 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- .debug_info    0x0002266b      0xe2e C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
- .debug_info    0x00023499     0x5645 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_clock.o)
- .debug_info    0x00028ade     0x4ff8 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
- .debug_info    0x0002dad6     0x14eb C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
- .debug_info    0x0002efc1     0x1a3e C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/log\liblog.a(log.o)
- .debug_info    0x000309ff     0x3c6d C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
- .debug_info    0x0003466c     0x7936 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
- .debug_info    0x0003bfa2     0x4440 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_time.o)
- .debug_info    0x000403e2     0x6bf7 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
- .debug_info    0x00046fd9     0x41af C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_init.o)
- .debug_info    0x0004b188     0x39f5 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_wdt.o)
- .debug_info    0x0004eb7d     0x35bd C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(cpu_util.o)
- .debug_info    0x0005213a      0xb02 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0\libgcc.a(_bswapsi2.o)
- .debug_info    0x00052c3c     0x10fd c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0\libgcc.a(_udivdi3.o)
+ .debug_info    0x00008ec4     0xa736 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .debug_info    0x000135fa     0x3939 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(flash_qio_mode.o)
+ .debug_info    0x00016f33     0x208a C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .debug_info    0x00018fbd     0x6d65 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+ .debug_info    0x0001fd22     0x2972 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .debug_info    0x00022694      0xe2e C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .debug_info    0x000234c2     0x5645 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_clock.o)
+ .debug_info    0x00028b07     0x4ff8 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .debug_info    0x0002daff     0x14eb C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+ .debug_info    0x0002efea     0x1a3e C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/log\liblog.a(log.o)
+ .debug_info    0x00030a28     0x3c6d C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_info    0x00034695     0x7936 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+ .debug_info    0x0003bfcb     0x4440 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_time.o)
+ .debug_info    0x0004040b     0x6bf7 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
+ .debug_info    0x00047002     0x41af C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_init.o)
+ .debug_info    0x0004b1b1     0x39f5 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_wdt.o)
+ .debug_info    0x0004eba6     0x35bd C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(cpu_util.o)
+ .debug_info    0x00052163      0xb02 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0\libgcc.a(_bswapsi2.o)
+ .debug_info    0x00052c65     0x10fd c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0\libgcc.a(_udivdi3.o)
 
 .debug_abbrev   0x00000000     0x4a09
  .debug_abbrev  0x00000000      0x283 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/main\libmain.a(bootloader_start.o)
@@ -3393,28 +3393,28 @@ OUTPUT(C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/b
  .debug_ranges  0x00000708       0x28 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(cpu_util.o)
  .debug_ranges  0x00000730       0xa0 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0\libgcc.a(_udivdi3.o)
 
-.debug_line     0x00000000    0x115ff
+.debug_line     0x00000000    0x11669
  .debug_line    0x00000000      0x4ff C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/main\libmain.a(bootloader_start.o)
  .debug_line    0x000004ff     0x1d9f C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
- .debug_line    0x0000229e     0x19e3 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
- .debug_line    0x00003c81      0xb17 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(flash_qio_mode.o)
- .debug_line    0x00004798     0x11a1 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
- .debug_line    0x00005939      0x76e C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
- .debug_line    0x000060a7     0x1be2 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
- .debug_line    0x00007c89      0x6e6 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
- .debug_line    0x0000836f      0x500 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_clock.o)
- .debug_line    0x0000886f     0x121d C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
- .debug_line    0x00009a8c      0x765 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
- .debug_line    0x0000a1f1      0xa8f C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/log\liblog.a(log.o)
- .debug_line    0x0000ac80     0x19ed C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
- .debug_line    0x0000c66d     0x1a80 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
- .debug_line    0x0000e0ed      0x88c C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_time.o)
- .debug_line    0x0000e979      0x931 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
- .debug_line    0x0000f2aa      0x915 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_init.o)
- .debug_line    0x0000fbbf      0x850 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_wdt.o)
- .debug_line    0x0001040f      0x385 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(cpu_util.o)
- .debug_line    0x00010794      0x391 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0\libgcc.a(_bswapsi2.o)
- .debug_line    0x00010b25      0xada c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0\libgcc.a(_udivdi3.o)
+ .debug_line    0x0000229e     0x1a4d C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .debug_line    0x00003ceb      0xb17 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(flash_qio_mode.o)
+ .debug_line    0x00004802     0x11a1 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .debug_line    0x000059a3      0x76e C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_random.o)
+ .debug_line    0x00006111     0x1be2 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .debug_line    0x00007cf3      0x6e6 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .debug_line    0x000083d9      0x500 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_clock.o)
+ .debug_line    0x000088d9     0x121d C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .debug_line    0x00009af6      0x765 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_sha.o)
+ .debug_line    0x0000a25b      0xa8f C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/log\liblog.a(log.o)
+ .debug_line    0x0000acea     0x19ed C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/spi_flash\libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_line    0x0000c6d7     0x1a80 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk.o)
+ .debug_line    0x0000e157      0x88c C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_time.o)
+ .debug_line    0x0000e9e3      0x931 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_clk_init.o)
+ .debug_line    0x0000f314      0x915 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_init.o)
+ .debug_line    0x0000fc29      0x850 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(rtc_wdt.o)
+ .debug_line    0x00010479      0x385 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/soc\libsoc.a(cpu_util.o)
+ .debug_line    0x000107fe      0x391 c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0\libgcc.a(_bswapsi2.o)
+ .debug_line    0x00010b8f      0xada c:/msys32/opt/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0\libgcc.a(_udivdi3.o)
 
 .debug_str      0x00000000     0x995d
  .debug_str     0x00000000      0x766 C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/build/bootloader/main\libmain.a(bootloader_start.o)

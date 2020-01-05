@@ -87,7 +87,6 @@ main.o: \
  C:/msys32/home/User/esp/esp-idf/components/soc/esp32/include/soc/adc_channel.h \
  C:/msys32/home/User/esp/esp-idf/components/freertos/include/freertos/semphr.h \
  C:/msys32/home/User/esp/esp-idf/components/freertos/include/freertos/queue.h \
- C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/main/avrcp_control.h \
  C:/msys32/home/User/esp/esp-idf/components/driver/include/driver/can.h \
  C:/msys32/home/User/esp/esp-idf/components/driver/include/driver/gpio.h \
  C:/msys32/home/User/esp/esp-idf/components/driver/include/driver/i2c.h \
@@ -267,8 +266,6 @@ C:/msys32/home/User/esp/esp-idf/components/soc/esp32/include/soc/adc_channel.h:
 C:/msys32/home/User/esp/esp-idf/components/freertos/include/freertos/semphr.h:
 
 C:/msys32/home/User/esp/esp-idf/components/freertos/include/freertos/queue.h:
-
-C:/msys32/home/User/esp/ESP32_Bluetooth_Audio_DEMP1993/main/avrcp_control.h:
 
 C:/msys32/home/User/esp/esp-idf/components/driver/include/driver/can.h:
 

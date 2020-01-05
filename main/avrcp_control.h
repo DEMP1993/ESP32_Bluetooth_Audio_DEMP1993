@@ -28,7 +28,7 @@ void avrcp_stop_send_activate()
 void avrcp_play_send_activate()
 {
 	avrcp_play=1;
-	printf("%d \n",avrcp_play);
+	//printf("%d \n",avrcp_play);
 }
 
 void avrcp_next_send_activate()
@@ -49,12 +49,14 @@ void avrcp_send_commands()
 	{
 		esp_avrc_ct_send_passthrough_cmd(0,ESP_AVRC_PT_CMD_STOP,ESP_AVRC_PT_CMD_STATE_PRESSED);
 		avrcp_stop_starttime=esp_timer_get_time();
+		printf("Send AVRCP Stop!\n");
 	}
 	if((esp_timer_get_time()>avrcp_stop_starttime+10) &&(avrcp_stop==1)&& (avrcp_stop_starttime !=0))//AVRCP Stop beenden
 	{
 		esp_avrc_ct_send_passthrough_cmd(0,ESP_AVRC_PT_CMD_STOP,ESP_AVRC_PT_CMD_STATE_RELEASED);
 		avrcp_stop=0;
 		avrcp_stop_starttime=0;
+		printf("Send AVRCP Stop!\n");
 	}
 
 	//AVRCP PLAY
@@ -63,25 +65,29 @@ void avrcp_send_commands()
 		//AVRCP Play senden
 		esp_avrc_ct_send_passthrough_cmd(1,ESP_AVRC_PT_CMD_PLAY,ESP_AVRC_PT_CMD_STATE_PRESSED);
 		avrcp_play_starttime=esp_timer_get_time();
+		printf("Send AVRCP Play!\n");
 	}
 	if((esp_timer_get_time()>avrcp_play_starttime+10) &&(avrcp_play==1)&& (avrcp_play_starttime !=0))//AVRCP Play beenden
 	{
 		esp_avrc_ct_send_passthrough_cmd(0,ESP_AVRC_PT_CMD_PLAY,ESP_AVRC_PT_CMD_STATE_RELEASED);
 		avrcp_play=0;
 		avrcp_play_starttime=0;
+		printf("Send AVRCP Play!\n");
 	}
 
 	//AVRCP NEXT
-	if(avrcp_next==1 && avrcp_next_starttime==0)//AVRCP n�chstes Lied senden
+	if(avrcp_next==1 && avrcp_next_starttime==0)//AVRCP naechstes Lied senden
 	{
 		esp_avrc_ct_send_passthrough_cmd(1,ESP_AVRC_PT_CMD_FORWARD,ESP_AVRC_PT_CMD_STATE_PRESSED);
 		avrcp_next_starttime=esp_timer_get_time();
+		printf("Send AVRCP Next!\n");
 	}
-	if((esp_timer_get_time()>avrcp_next_starttime+10) &&(avrcp_next==1)&& (avrcp_next_starttime !=0))//AVRCP n�chstes Lied beenden
+	if((esp_timer_get_time()>avrcp_next_starttime+10) &&(avrcp_next==1)&& (avrcp_next_starttime !=0))//AVRCP naechstes Lied beenden
 	{
 		esp_avrc_ct_send_passthrough_cmd(0,ESP_AVRC_PT_CMD_FORWARD,ESP_AVRC_PT_CMD_STATE_RELEASED);
 		avrcp_next=0;
 		avrcp_next_starttime=0;
+		printf("Send AVRCP Next!\n");
 	}
 
 	//AVRCP PREVIOUS
@@ -89,6 +95,7 @@ void avrcp_send_commands()
 	{
 		esp_avrc_ct_send_passthrough_cmd(1,ESP_AVRC_PT_CMD_BACKWARD,ESP_AVRC_PT_CMD_STATE_PRESSED);
 		avrcp_previous_starttime=esp_timer_get_time();
+		printf("Send AVRCP PREVIOUS!\n");
 
 	}
 	if((esp_timer_get_time()>avrcp_previous_starttime+10) &&(avrcp_previous==1)&& (avrcp_previous_starttime !=0))//AVRCP vorheriges Lied beenden
@@ -96,6 +103,7 @@ void avrcp_send_commands()
 		esp_avrc_ct_send_passthrough_cmd(0,ESP_AVRC_PT_CMD_BACKWARD,ESP_AVRC_PT_CMD_STATE_RELEASED);
 		avrcp_previous=0;
 		avrcp_previous_starttime=0;
+		printf("Send AVRCP PREVIOUS!\n");
 	}
 }
 
