@@ -1,1 +1,1 @@
-44cc037-dirty a2dp_sink v4.0-dev-1287-gd7e659df2
+0580f5d-dirty a2dp_sink v4.0-dev-1287-gd7e659df2
