@@ -143,8 +143,8 @@ void app_main()
 	        .bits_per_sample = 32,
 	        .channel_format = I2S_CHANNEL_FMT_RIGHT_LEFT,                           //2-channels
 	        .communication_format = I2S_COMM_FORMAT_I2S_MSB,
-	        .dma_buf_count = 6,
-	        .dma_buf_len = 192,
+	        .dma_buf_count = 1024,
+	        .dma_buf_len = 32768,
 	        .intr_alloc_flags = 0,                                                  //Default interrupt priority
 	        .tx_desc_auto_clear = true                                              //Auto clear tx descriptor on underflow
 	    };
