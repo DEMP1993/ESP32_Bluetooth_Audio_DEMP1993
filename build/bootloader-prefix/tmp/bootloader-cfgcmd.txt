@@ -1,0 +1,1 @@
+cmd='C:/Users/MP/.espressif/tools/cmake/3.13.4/bin/cmake.exe;-DSDKCONFIG=C:/Users/MP/Desktop/esp-idf/ESP32_Bluetooth_Audio_DEMP1993/sdkconfig;-DIDF_PATH=C:/Users/MP/Desktop/esp-idf;-DIDF_TARGET=esp32;-DPYTHON_DEPS_CHECKED=1;-DEXTRA_COMPONENT_DIRS=C:/Users/MP/Desktop/esp-idf/components/bootloader;-DLEGACY_INCLUDE_COMMON_HEADERS=;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'

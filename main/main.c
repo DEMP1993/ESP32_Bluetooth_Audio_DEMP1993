@@ -144,7 +144,7 @@ void app_main()
 	        .channel_format = I2S_CHANNEL_FMT_RIGHT_LEFT,                           //2-channels
 	        .communication_format = I2S_COMM_FORMAT_I2S_MSB,
 	        .dma_buf_count = 32,
-	        .dma_buf_len = 1024,
+	        .dma_buf_len = 512,
 	        .intr_alloc_flags = 0,                                                  //Default interrupt priority
 	        .tx_desc_auto_clear = true                                              //Auto clear tx descriptor on underflow
 	    };
